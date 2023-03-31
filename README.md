@@ -29,7 +29,7 @@ Lets start by storing the models pickled file on cloud storage. To do this searc
 * If you want explainability you can choose it or skip.
 * Finally click the `import button`. Model import will take some time.
 
-**Note**: Change the model name to model.pkl
+**Note**: Your model name should be strictly `model.pkl`
 
 ## Creating Service account to access model in streamlit
 
