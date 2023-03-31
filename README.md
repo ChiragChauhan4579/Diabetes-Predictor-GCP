@@ -34,4 +34,5 @@ Lets start by storing the models pickled file on cloud storage. To do this searc
 
 ## gcloud cli install and setup
 
-Install the cli using this [link](https://cloud.google.com/docs/authentication/provide-credentials-adc#how-to)
+* Install the cli using this [link](https://cloud.google.com/docs/authentication/provide-credentials-adc#how-to)
+* Create the credential file as mentioned in instructions using `gcloud auth application-default login`
