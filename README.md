@@ -11,3 +11,13 @@ The GradientBoost model in pickle format is available in the repo so you can jus
 ```
 git clone https://github.com/ChiragChauhan4579/Diabetes-Predicor-GCP
 ```
+
+To install required libraries run this command
+
+```
+pip install -r requirements.txt
+```
+
+## GCP API creation
+
+* Lets start by storing the models pickled file on cloud storage. To do this search for `Cloud Storage` on GCP console and then create a bucket there with your required configurations. After createing the bucket you can see various upload options so upload your pkl file through that.
