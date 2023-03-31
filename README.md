@@ -29,4 +29,4 @@ Lets start by storing the models pickled file on cloud storage. To do this searc
 * If you want explainability you can choose it or skip.
 * Finally click the import button. Model import will take some time.
 
-*Note*: Change the model name to model.pkl
+**Note**: Change the model name to model.pkl
