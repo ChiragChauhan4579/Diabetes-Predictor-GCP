@@ -25,15 +25,15 @@ Lets start by storing the models pickled file on cloud storage. To do this searc
 ## Hosting the model on Vertex AI platform
 
 * Search `Vertex AI` and go to the model registry through the left hand pane in the there. Click on `Import` button to start registering a new model by giving it a name.
-* In model settings section choose the framework, its version and pickled model location.
+* In model settings section choose the `framework, its version and pickled model location`.
 * If you want explainability you can choose it or skip.
-* Finally click the import button. Model import will take some time.
+* Finally click the `import button`. Model import will take some time.
 
 **Note**: Change the model name to model.pkl
 
 ## Creating Service account to access model in streamlit
 
-* Go to IAM & Admin -> Service account and create a new account.
-* Give the AI platform developer role to the account
-* Now in the newly created account click the three dots to and go to manage keys.
-* Click on add key and create the json type key there which will download a json file to your pc which contains your private access keys
+* Go to IAM & Admin -> Service account and create a `new account`.
+* Give the `AI platform developer role` to the account.
+* Now in the newly created account click the three dots to and go to `manage keys`.
+* Click on add key and create the `json type key` there which will download a json file to your pc which contains your private access keys.
