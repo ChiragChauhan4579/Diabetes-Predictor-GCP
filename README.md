@@ -27,4 +27,6 @@ Lets start by storing the models pickled file on cloud storage. To do this searc
 * Search `Vertex AI` and go to the model registry through the left hand pane in the there. Click on `Import` button to start registering a new model by giving it a name.
 * In model settings section choose the framework, its version and pickled model location.
 * If you want explainability you can choose it or skip.
-* Finally click the import button.
+* Finally click the import button. Model import will take some time.
+
+*Note: Change the model name to model.pkl
