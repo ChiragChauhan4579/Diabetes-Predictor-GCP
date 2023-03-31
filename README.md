@@ -52,3 +52,7 @@ Run the application after changing the file as
 ```
 streamlit run app.py
 ```
+
+Output:
+
+![output](https://github.com/ChiragChauhan4579/Diabetes-Predicor-GCP/blob/main/output.PNG)
