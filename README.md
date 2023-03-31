@@ -36,3 +36,11 @@ Lets start by storing the models pickled file on cloud storage. To do this searc
 
 * Install the cli using this [link](https://cloud.google.com/docs/authentication/provide-credentials-adc#how-to)
 * Create the credential file as mentioned in instructions using `gcloud auth application-default login`
+
+## Streamlit app
+
+Run the application after changing the file as
+
+```
+streamlit run app.py
+```
