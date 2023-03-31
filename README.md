@@ -30,3 +30,10 @@ Lets start by storing the models pickled file on cloud storage. To do this searc
 * Finally click the import button. Model import will take some time.
 
 **Note**: Change the model name to model.pkl
+
+## Creating Service account to access model in streamlit
+
+* Go to IAM & Admin -> Service account and create a new account.
+* Give the AI platform developer role to the account
+* Now in the newly created account click the three dots to and go to manage keys.
+* Click on add key and create the json type key there which will download a json file to your pc which contains your private access keys
