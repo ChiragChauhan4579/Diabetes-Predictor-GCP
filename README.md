@@ -20,4 +20,11 @@ pip install -r requirements.txt
 
 ## GCP API creation
 
-* Lets start by storing the models pickled file on cloud storage. To do this search for `Cloud Storage` on GCP console and then create a bucket there with your required configurations. After createing the bucket you can see various upload options so upload your pkl file through that.
+Lets start by storing the models pickled file on cloud storage. To do this search for `Cloud Storage` on GCP console and then create a bucket there with your required configurations. After createing the bucket you can see various upload options so upload your pkl file through that.
+
+## Hosting the model on Vertex AI platform
+
+* Search `Vertex AI` and go to the model registry through the left hand pane in the there. Click on `Import` button to start registering a new model by giving it a name.
+* In model settings section choose the framework, its version and pickled model location.
+* If you want explainability you can choose it or skip.
+* Finally click the import button.
