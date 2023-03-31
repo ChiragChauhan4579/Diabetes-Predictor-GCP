@@ -1,4 +1,4 @@
-# Diabetes Predicor GCP Deployment Walkthrough
+# Diabetes Predictor GCP Deployment Walkthrough
 
 By using Vertex AI by GCP one can deploy models easily that are trained by frameworks like scikit-learn, pytorch, tensorflow and xgboost.
 
