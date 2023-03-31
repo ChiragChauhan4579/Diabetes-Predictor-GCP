@@ -28,6 +28,7 @@ Lets start by storing the models pickled file on cloud storage. To do this searc
 * In model settings section choose the `framework, its version and pickled model location`.
 * If you want explainability you can choose it or skip.
 * Finally click the `import button`. Model import will take some time.
+* Create the endpoint of that model by going to endpoint section in left pane.
 
 **Note**: Your model name should be strictly `model.pkl`
 
