@@ -41,8 +41,8 @@ Lets start by storing the models pickled file on cloud storage. To do this searc
 
 Run the application after changing the file as
 
-* Give the `endpoint deployed region` in predict_class argument api_endpoint
-* Input your details when calling predict_class function by going to sample request -> python in created endpoint of vertex ai
+* Give the `endpoint deployed region` in predict_class argument api_endpoint.
+* Input your details when calling predict_class function by going to sample request -> python in created endpoint of vertex ai.<br>
   predict_class(
     project="ENTER YOUR DETAILS",
     endpoint_id="ENTER YOUR DETAILS",
