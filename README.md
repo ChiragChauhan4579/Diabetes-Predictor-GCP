@@ -32,9 +32,6 @@ Lets start by storing the models pickled file on cloud storage. To do this searc
 
 **Note**: Your model name should be strictly `model.pkl`
 
-## Creating Service account to access model in streamlit
+## gcloud cli install and setup
 
-* Go to IAM & Admin -> Service account and create a `new account`.
-* Give the `AI platform developer role` to the account.
-* Now in the newly created account click the three dots to and go to `manage keys`.
-* Click on add key and create the `json type key` there which will download a json file to your pc which contains your private access keys.
+Install the cli using this ![link](https://cloud.google.com/docs/authentication/provide-credentials-adc#how-to)
