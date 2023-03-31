@@ -7,8 +7,7 @@ from google.cloud import aiplatform
 from google.protobuf import json_format
 from google.protobuf.struct_pb2 import Value
 
-def predict_class(project: str,endpoint_id: str,instances,
-location: str = "us-central1",api_endpoint: str = "{region}-aiplatform.googleapis.com"):
+def predict_class(project: str,endpoint_id: str,instances,location: str = "us-central1",api_endpoint: str = "{region}-aiplatform.googleapis.com"):
 
     client_options = {"api_endpoint": api_endpoint}
     client = aiplatform.gapic.PredictionServiceClient(client_options=client_options)
