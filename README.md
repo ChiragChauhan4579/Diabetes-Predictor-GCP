@@ -55,4 +55,4 @@ streamlit run app.py
 
 Output:
 
-![output](https://github.com/ChiragChauhan4579/Diabetes-Predicor-GCP/blob/main/output.PNG)
+![output](https://github.com/ChiragChauhan4579/Diabetes-Predictor-GCP/blob/main/output.PNG)
